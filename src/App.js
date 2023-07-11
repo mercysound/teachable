@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+// import Header from './component/header';
+// import Mybutton from './button/Mybutton';
+import Parentui from './assignment/Parentui';
+// import Header from './component/Header'
 
-function App() {
+// import ConnectToBackend from './connectToBackend'
+// import ChatApp from './ChatApp'
+
+const App = () => {
+  // const sayHello = (myNumber)=>{
+  //   alert("Hello"+myNumber)
+  // }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Parentui/>
+{/* <ConnectToBackend/>  */}
+{/* <ChatApp/> */}
+{/* <Mybutton gBtnNm={"yellow"} color={"btn btn-warning"} sayAny={sayHello}/>
+<Header/> */}
+{/* {<Fetch/>} */}
+    </>
+  )
 }
 
 export default App;
